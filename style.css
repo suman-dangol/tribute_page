@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px; 
+    /* this is done so that it is easier for me to calculate the rem
+     Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth */
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    text-align: center;
+    background-color: rgb(14, 12, 12);
+    color: #f1f1f1;
+}
+
+h1{
+    font-size: 4rem;
+    margin-bottom:0.2rem;;
+}
+
+h3{
+    font-size:2rem;
+}
+
+p{
+    font-size:1.6rem;
+}
+
+a{
+    color: #477ca7;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: #c7c2cf;
+}
+
+#main{
+    padding: 1rem;
+}
+
+#img-div{
+    padding: 1rem;
+    /* background-color: white; */
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption{
+    margin: 1rem 0 0.5rem 0;
+}
+
+#tribute-info{
+    /* background-color: red; */
+    text-align: justify;
+}
+
+#headline{
+    /* background-color: teal; */
+    margin-top: 1rem;
+}
+
+ul{
+    max-width: 50rem;
+    text-align: left;
+    margin: 0 auto;
+}
+
+li{
+    font-size: 1.6rem;
+}
+
+#testimonials{
+    margin: 3rem auto;
+    max-width: 55rem;
+    
+}
+
+footer{
+    margin-top: 1rem;
+}
+
+@media (max-width:460px) {
+    h1{
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    h3{
+        font-size: 1.6rem;
+    }
+
+    #headline{
+        margin-bottom: 0.5rem;
+    }
+
+    li{
+        margin-bottom: 0.7rem;
+        line-height: 1.2;
+    }
+
+}
+/* @media (max-width:720px;) {
+    #testimonials{
+        max-width: 35rem;
+    }
+} */ 
